@@ -27,11 +27,16 @@ const { resourceLimits } = require("worker_threads");
 const app = express();
 const PORT = process.env.PORT || 3001;
 
+//Set up Express app to handle data parsing
+app.use(express.urlencoded({extended:true}));
+app.use(express.json());
+app.use(express.static("public"));
+
 //Set up Middleware
 
 //Setting routes for APIs
-require("./Routes/routesAPI")(app);
-require("./Routes/routesHTML")(app);
+const apiRoutes = require("./Routes/routesAPI");
+const htmlRoutes = require("./Routes/routesHTML");
 
 //Notes get saved and joins it in the db.json
 app.get("/api/notes", (req, res) => {
@@ -43,9 +48,7 @@ app.get("/api/notes", (req, res) => {
 
 //Delete Notes
 
-//App listening 
+//Starts server to begin listening 
 app.listen(PORT, () => {
     console.log("App listening on PORT" + PORT);
 });
-
-app.use(routes);
