@@ -21,7 +21,7 @@ const fs = require("fs");
 
 //Gives each code a unique id when it's saved 
 const uuid = require("uuid");
-const { resourceLimits } = require("worker_threads");
+// const { resourceLimits } = require("worker_threads");
 
 //Set up Express app
 const app = express();
@@ -32,8 +32,6 @@ app.use(express.urlencoded({extended:true}));
 app.use(express.json());
 app.use(express.static("public"));
 
-//Set up Middleware
-
 //Setting routes for APIs
 const apiRoutes = require("./Routes/routesAPI");
 const htmlRoutes = require("./Routes/routesHTML");
@@ -43,12 +41,9 @@ app.get("/api/notes", (req, res) => {
     res.sendFile(path.join(__dirname, "./db/db.json"));
 })
 
-//Function to addd new notes to db.json
-//post method is going to add new notes to the html 
-
 //Delete Notes
 
 //Starts server to begin listening 
 app.listen(PORT, () => {
-    console.log("App listening on PORT" + PORT);
+    console.log(`App listening on PORT at http://localhost:${PORT}`);
 });
