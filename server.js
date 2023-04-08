@@ -33,8 +33,8 @@ app.use(express.json());
 app.use(express.static("public"));
 
 //Setting routes for APIs
-const apiRoutes = require("./Routes/routesAPI");
-const htmlRoutes = require("./Routes/routesHTML");
+const routesAPI = require("./Routes/routesAPI");
+const routesHTML = require("./Routes/routesHTML");
 
 //Notes get saved and joins it in the db.json
 app.get("/api/notes", (req, res) => {
