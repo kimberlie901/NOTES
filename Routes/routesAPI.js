@@ -15,7 +15,6 @@ router.get("/notes", (req, res) => {
 router.post("/notes", (req, res) => {
     let newNote = req.body;
     notes.push(newNote);
-    updateDb();
     return console.log("Added a new note:" + newNote.title);
 });
 
