@@ -10,7 +10,7 @@ const router = require("express").Router();
 
 // Get /notes this will return notes.html file as a response to the user when the GET request is made 
 router.get("/notes", (req, res) => {
-    res.sendFile(path.join(__dirname, "./public/notes.html"));
+    res.sendFile(path.join(__dirname, "../public/notes.html"));
 });
 
 // Get * this will return index.html file as a response to the user when the GET request is made

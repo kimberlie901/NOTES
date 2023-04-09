@@ -18,6 +18,8 @@
 const express =  require("express");
 const path = require("path");
 const fs = require("fs");
+const routesAPI = require("./Routes/routesAPI");
+const routesHTMl = require("./Routes/routesHTML");
 
 //Gives each code a unique id when it's saved 
 const uuid = require("uuid");
@@ -33,8 +35,8 @@ app.use(express.json());
 app.use(express.static("public"));
 
 //Setting routes for APIs
-const routesAPI = require("./Routes/routesAPI");
-const routesHTML = require("./Routes/routesHTML");
+app.use("/api", routesAPI);
+app.use("/", routesHTMl);
 
 //Notes get saved and joins it in the db.json
 app.get("/api/notes", (req, res) => {
