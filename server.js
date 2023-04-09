@@ -21,8 +21,6 @@ const fs = require("fs");
 const routesAPI = require("./Routes/routesAPI");
 const routesHTMl = require("./Routes/routesHTML");
 
-//Gives each code a unique id when it's saved 
-const uuid = require("uuid");
 // const { resourceLimits } = require("worker_threads");
 
 //Set up Express app

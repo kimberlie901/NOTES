@@ -2,6 +2,8 @@
 const router = require("express").Router();
 const notes = require("../db/db.json");
 const fs = require("fs");
+//Gives each code a unique id when it's saved 
+const uuid = require("uuid");
 
 //GET /api/notes should read the db.json file and return all saved notes as JSON
 
