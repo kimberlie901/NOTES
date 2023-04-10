@@ -2,6 +2,7 @@
 
 ## Description
 
+
 ## Installation
 
 - Visual Studio Code 
@@ -12,10 +13,13 @@
 ## Usage
 
 - To start using the application, open your browser and go to http://localhost:3001/
+- Application Demo
+
 
 ## Websites
 
-- Github 
+- Deployed Application
+- Github
 - Live Heroku App 
 
 ## Technologies
@@ -26,6 +30,10 @@
 - npm
 - Express.js
 - Live Heroku App
+
+## Demo 
+
+This is a simple note-taking application that uses Node.js and Express.js to write and save notes. 
 
 ## License
 

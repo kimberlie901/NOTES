@@ -21,13 +21,11 @@ const fs = require("fs");
 const routesAPI = require("./Routes/routesAPI");
 const routesHTMl = require("./Routes/routesHTML");
 
-// const { resourceLimits } = require("worker_threads");
-
 //Set up Express app
 const app = express();
 const PORT = process.env.PORT || 3001;
 
-//Set up Express app to handle data parsing
+//Set up Middleware
 app.use(express.urlencoded({extended:true}));
 app.use(express.json());
 app.use(express.static("public"));
@@ -41,9 +39,9 @@ app.get("/api/notes", (req, res) => {
     res.sendFile(path.join(__dirname, "./db/db.json"));
 })
 
-//Delete Notes
+// Extra Credit: Delete Notes
 
 //Starts server to begin listening 
 app.listen(PORT, () => {
-    console.log(`App listening on PORT at http://localhost:${PORT}`);
+    console.log(`Server listening on PORT at http://localhost:${PORT}`);
 });
