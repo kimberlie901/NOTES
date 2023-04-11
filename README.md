@@ -2,6 +2,7 @@
 
 ## Description
 
+This is a simple note-taking application that uses Node.js and Express.js to write and save notes. 
 
 ## Installation
 
@@ -22,6 +23,11 @@
 - Github
 - Live Heroku App 
 
+[Deployed_Application](https://kimberlie901.github.io/NOTES/)
+[Github](https://github.com/kimberlie901/NOTES)
+
+![Note-Taker-Application-Screenshot](assets/Screenshot%202023-04-10%20at%207.59.08%20PM.png)
+
 ## Technologies
 
 - Visual Studio Code
@@ -33,7 +39,8 @@
 
 ## Demo 
 
-This is a simple note-taking application that uses Node.js and Express.js to write and save notes. 
+![Note-Taker-Demo](assets/11-express-homework-demo-01.png)
+![Note-Taker-Demo](assets/11-express-homework-demo-02.png)
 
 ## License
 
