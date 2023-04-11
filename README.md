@@ -24,9 +24,10 @@ This is a simple note-taking application that uses Node.js and Express.js to wri
 - Live Heroku App 
 
 [Deployed_Application](https://kimberlie901.github.io/NOTES/)
+
 [Github](https://github.com/kimberlie901/NOTES)
 
-![Note-Taker-Application-Screenshot](assets/Screenshot%202023-04-10%20at%207.59.08%20PM.png)
+![Note-Taker-Application-Screenshot](Assets/Screenshot%202023-04-10%20at%207.59.08%20PM.png)
 
 ## Technologies
 
