@@ -23,7 +23,7 @@ This is a simple note-taking application that uses Node.js and Express.js to wri
 - Github
 - Live Heroku App 
 
-[Deployed_Application](https://kimberlie901.github.io/NOTES/)
+[Deployed Application](https://kimberlie901.github.io/NOTES/)
 
 [Github](https://github.com/kimberlie901/NOTES)
 
