@@ -39,8 +39,8 @@ This is a simple note-taking application that uses Node.js and Express.js to wri
 
 ## Demo 
 
-![Note-Taker-Demo](assets/11-express-homework-demo-01.png)
-![Note-Taker-Demo](assets/11-express-homework-demo-02.png)
+![Note-Taker-Demo](Assets/11-express-homework-demo-01.png)
+![Note-Taker-Demo](Assets/11-express-homework-demo-02.png)
 
 ## License
 
