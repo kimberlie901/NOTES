@@ -20,11 +20,11 @@ This is a simple note-taking application that uses Node.js and Express.js to wri
 
 ## Websites
 
-[Live Heroku App](https://tranquil-fjord-61279.herokuapp.com/)
+- [Live Heroku App](https://tranquil-fjord-61279.herokuapp.com/)
 
-[Deployed Application](https://kimberlie901.github.io/NOTES/)
+- [Deployed Application](https://kimberlie901.github.io/Note-Taker/)
 
-[Github](https://github.com/kimberlie901/NOTES)
+- [Github](https://github.com/kimberlie901/Note-Taker)
 
 ## Technologies
 
