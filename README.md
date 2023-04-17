@@ -6,16 +6,17 @@ This is a simple note-taking application that uses Node.js and Express.js to wri
 
 ## Installation
 
-- Visual Studio Code 
-- Download or clone repository
-- Node.js 
-- npm install to install the required npm packages
+1. Visual Studio Code 
+2. Download or clone repository
+3. Node.js 
+4. npm install to install the required npm packages
 
 ## Usage
 
 - To start using the application, open your browser and go to http://localhost:3001/
 - Application Demo
 
+![Note-Taker-Application-Screenshot](Assets/Screenshot%202023-04-10%20at%207.59.08%20PM.png)
 
 ## Websites
 
@@ -24,8 +25,6 @@ This is a simple note-taking application that uses Node.js and Express.js to wri
 [Deployed Application](https://kimberlie901.github.io/NOTES/)
 
 [Github](https://github.com/kimberlie901/NOTES)
-
-![Note-Taker-Application-Screenshot](Assets/Screenshot%202023-04-10%20at%207.59.08%20PM.png)
 
 ## Technologies
 
